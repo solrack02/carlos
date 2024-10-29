@@ -99,6 +99,46 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         ],
 
           args,
+        }}/>, 
+        (...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "100px"
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "26px"
+        }})] }}), 
+stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#000"
+        }})] }}), 
+stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "center"
+        }})] }})],
+
+          childrenItems: [(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            stls.color({ pass: { arrayValue: ["white"] }})
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "Clique Aqui"
+        }})
+          ],
+
+          args,
+
+        }}/>],
+
+          pressableFunctions: [()=>console.log("Você Clicou!")],
+
+          args,
         }}/>, (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
