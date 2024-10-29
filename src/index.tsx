@@ -130,30 +130,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
         }}/>],
 
-          pressableFunctions: [async (...args) =>
-        functions.firebase.where({ args, pass:{
-            fbInit: [jsvals.varReader({pass: {
-          path: jsvals.j8({pass: {
-          propertieValues: "all.fbInit"
-        }})
-        }})],
-            arrRefStrings: [jsvals.j8({pass: {
-          propertieValues: "users"
-        }})],
-            arrWhere: [(...args) =>
-        functions.firebase.whereConds({ args, pass:{
-          arrStrings: [
-        jsvals.j8({pass: {
-          propertieValues: "userEmail"
-        }}), 
-        jsvals.j8({pass: {
-          propertieValues: "=="
-        }}), jsvals.j8({pass: {
-          propertieValues: "sdd"
-        }})],
-        }})],
-            arrFuncs: [() => {}],
-        }})],
+          pressableFunctions: [()=>console.log("Você Clicou!")],
 
           args,
         }}/>],
