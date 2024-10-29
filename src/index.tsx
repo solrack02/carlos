@@ -87,7 +87,9 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           ],
 
           children: [
-            "Escreva..."
+            jsvals.j8({pass: {
+          propertieValues: "Ir p/ Produtos"
+        }})
           ],
 
           args,
