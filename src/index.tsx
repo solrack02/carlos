@@ -1498,7 +1498,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
           pressableFunctions: [
         (...args) => {
           // ---------- get Function from A_Project Scope
-          return tools.goTo("sc2");
+          return tools.goTo("a0");
         }
         ],
 
