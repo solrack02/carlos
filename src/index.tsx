@@ -83,16 +83,9 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
         }}/>, (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
-          styles: [
-              {
-                backgroundColor: 'blue',
-                borderRadius: 20,
-                paddingVertical: 5,
-                paddingHorizontal: 20,
-                justifyContent: 'center',
-                alignItems: 'center',
-              }
-              ],
+          styles: [stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "100px"
+        }})] }})],
 
           childrenItems: [(...args:any) => <Elements.Text pass={{
           arrProps: [
