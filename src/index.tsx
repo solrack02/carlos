@@ -74,7 +74,22 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
               }
               ],
 
-          childrenItems: [()=><></>],
+          childrenItems: [(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            "Escreva..."
+          ],
+
+          args,
+
+        }}/>],
 
           pressableFunctions: [()=>console.log("Você Clicou!")],
 
