@@ -76,12 +76,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
           childrenItems: [()=><></>],
 
-          pressableFunctions: [
-        (...args) => {
-          // ---------- get Function from A_Project Scope
-          return tools.goTo("sc1");
-        }
-        ],
+          pressableFunctions: [()=>console.log("Você Clicou!")],
 
           args,
         }}/>, (...args:any) => <Elements.Pressable3 pass={{
