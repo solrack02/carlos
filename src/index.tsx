@@ -91,7 +91,12 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
         }}/>],
 
-          pressableFunctions: [()=>console.log("Você Clicou!")],
+          pressableFunctions: [
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("a1");
+        }
+        ],
 
           args,
         }}/>, (...args:any) => <Elements.Pressable3 pass={{
