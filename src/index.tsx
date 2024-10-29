@@ -83,8 +83,14 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
         }}/>, (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
-          styles: [stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
+          styles: [
+stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100px"
+        }})] }}), 
+stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "26px"
+        }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "#000"
         }})] }})],
 
           childrenItems: [(...args:any) => <Elements.Text pass={{
@@ -93,12 +99,12 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            stls.color({ pass: { arrayValue: ["white"] }})
           ],
 
           children: [
             jsvals.j8({pass: {
-          propertieValues: "where"
+          propertieValues: "Clique Aqui"
         }})
           ],
 
