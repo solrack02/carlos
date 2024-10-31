@@ -2155,7 +2155,7 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
 stls.width({ pass: { arrayValue: [jsvals.j8({pass: {
           propertieValues: "100%"
         }})] }}), stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "gray"
+          propertieValues: "#333"
         }})] }})],
 
             variablePath:[ ],
