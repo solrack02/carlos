@@ -2138,22 +2138,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
         (...args:any) => <Elements.ScrollBar pass={{
             styles: [],
             arrProps: [],
-            arrItems: [(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            {}
-          ],
-
-          arrStyles: [
-            { color: 'black', fontSize: 12, }
-          ],
-
-          children: [
-            "Escreva..."
-          ],
-
-          args,
-
-        }}/>],
+            arrItems: [() => <></>],
             args,
         }}/>, 
         
