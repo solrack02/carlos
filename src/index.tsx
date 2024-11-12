@@ -2221,7 +2221,68 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
 
             expectedVal:[ ],
 
-            childrenItems:[(...args:any) => <Elements.Text pass={{
+            childrenItems:[
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            variablePath:[ ],
+
+            expectedVal:[ ],
+
+            childrenItems:[(...args:any) => <Elements.SvgView1 pass={{
+      componentSvg: (Svg:any, SvgObj:any) => {
+        const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
+        return (props:any) => (  <Svg
+xmlns="http://www.w3.org/2000/svg"
+    width={49}
+    height={43}
+    viewBox="0 0 49 43"
+    {...props}
+  >
+    <Path
+       {...props}
+      fillRule="evenodd"
+      d="M43.986 36.75 25.366 4.5a1 1 0 0 0-1.732 0L5.014 36.75a1 1 0 0 0 .866 1.5h37.24a1 1 0 0 0 .866-1.5ZM28.83 2.5c-1.924-3.333-6.736-3.333-8.66 0L1.55 34.75c-1.924 3.333.481 7.5 4.33 7.5h37.24c3.849 0 6.254-4.167 4.33-7.5L28.83 2.5Z"
+      clipRule="evenodd"
+    />
+    <Path
+       {...props}
+      fillRule="evenodd"
+      d="M25 15a2 2 0 0 1 2 2v8.5a2 2 0 1 1-4 0V17a2 2 0 0 1 2-2Zm0 15.5a2 2 0 0 1 2 2v.1a2 2 0 1 1-4 0v-.1a2 2 0 0 1 2-2Z"
+      clipRule="evenodd"
+    />
+  </Svg>)
+      },
+
+      svgOriginal: `
+        <svg></svg>
+      `,
+
+      altura: "14px",
+
+      largura: "14px",
+
+      preenchimento: [jsvals.j8({pass: {
+          propertieValues: "#000"
+        }})],
+
+      args,
+    }}/>],
+
+            args,
+          }}/>
+        , (...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
