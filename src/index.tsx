@@ -2056,7 +2056,8 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
             childrenItems:[(...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
-        return (props:any) => (  <Svg xmlns="http://www.w3.org/2000/svg"
+        return (props:any) => (  <Svg
+xmlns="http://www.w3.org/2000/svg"
     width={11}
     height={18}
     viewBox="0 0 11 18"
@@ -2064,11 +2065,9 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
   >
     <Path
 {...props}
-      stroke="#fff"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={3}
-      d="M9 2 2 9l7 7"
+      fillRule="evenodd"
+      d="M10.06.94a1.5 1.5 0 0 1 0 2.12L4.122 9l5.94 5.94a1.5 1.5 0 0 1-2.122 2.12l-7-7a1.5 1.5 0 0 1 0-2.12l7-7a1.5 1.5 0 0 1 2.122 0Z"
+      clipRule="evenodd"
     />
   </Svg>)
       },
