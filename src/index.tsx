@@ -2076,9 +2076,9 @@ xmlns="http://www.w3.org/2000/svg"
         <svg></svg>
       `,
 
-      altura: "30px",
+      altura: "22px",
 
-      largura: "30px",
+      largura: "22px",
 
       preenchimento: [jsvals.j8({pass: {
           propertieValues: "#fff"
