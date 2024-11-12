@@ -3059,7 +3059,7 @@
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsDfCode": "'transparent'",
+              "capsIptCapsDfCode": "'black'",
               "capsIptCapsTypesToAdd": ["string process"]
             }
           }
