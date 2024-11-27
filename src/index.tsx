@@ -19,7 +19,7 @@
           import { tools } from './tools';
 
           // ---------- set Caps Inputs
-          const currRoute = 'smallbook';
+          const currRoute = 'a2';
 
           let args: any = [];
 
